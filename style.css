@@ -1,0 +1,126 @@
+
+
+body{
+    background-color: rgb(215, 241, 250);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 50px;
+    padding: 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.container{
+    min-height: 62vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image:url(maxresdefault.jpg) ;
+
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    cursor: pointer;
+}
+#progressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songlistcontainer{
+    margin-top: 30px;
+}
+
+.songItem{
+    height: 40px;
+    display: flex;
+    margin: 12px 0;
+    padding: 0 10px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color:azure;
+    border-radius: 25px;
+    color: black;
+
+
+}
+
+.songItem img{
+    size: 5px;
+    padding-right: 10px;
+    width: 35px;
+    
+    
+    margin:5px 20px;
+}
+.timestamp{
+    
+}
+
+.fa-solid{
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+.songinfo{
+    position: absolute;
+    left: 9.5vw;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.songinfo img{
+    size: 80px;
+    margin-right: 5px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    
+}
